@@ -1,10 +1,12 @@
 Package: grr
 Title: Alternate Implementations of Base R Functions
-Version: 0.9
-Author: Craig Varrichio <canthony427@gmail.com>
+Version: 0.9.9001
+Author: Craig Varrichio [aut, cre]
 Maintainer: Craig Varrichio <canthony427@gmail.com>
+Authors@R: person(given = "Craig", family = "Varrichio", role = c("aut", "cre"), email = "canthony427@gmail.com")
 Description: Alternate implementations of some base R functions, including sort, order, and match.  Functions are faster and/or have been otherwise augmented.
-Depends: R (>= 3.0.0)
+    Compatibility updates by Renova.
+Depends: R (>= 3.5.0)
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1

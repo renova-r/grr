@@ -26,7 +26,7 @@ If \code{FALSE}, result is returned as a data frame with repeated values for eac
 \item{nomatch}{the value to be returned in the case when no match is found. If not provided
 and \code{indexes=TRUE}, items with no match will be represented as \code{NA}.  If set to \code{NULL},
 items with no match will be set to an index value of \code{length+1}.  If
-{indexes=FALSE}, they will default to \code{NA}.}
+\code{indexes=FALSE}, they will default to \code{NA}.}
 }
 \description{
 Returns a lookup table or list of the positions of ALL matches of its first argument in its second and vice versa.
