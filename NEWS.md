@@ -1,3 +1,11 @@
+# grr 0.9.9002
+
+Platform compatibility patch to Renova release 0.9.9001, which is based on CRAN grr 0.9 (archived on CRAN 2025-12-10).
+
+- `src/grr.cpp`: defines `R_NO_REMAP`, includes the C++ standard headers before the R headers, and uses `Rf_allocVector` / `Rf_error`. Rinternals.h's `#define length(x) Rf_length(x)` collided with `std::codecvt::length` in libc++'s `<locale>` and broke compilation with libc++ toolchains (macOS, Windows ARM64, WebAssembly). No behaviour change.
+- No R code, `NAMESPACE`, help page or other source file changed.
+- `DESCRIPTION`: `Version` set to `0.9.9002`. `README.md` and `NEWS.md` updated.
+
 # grr 0.9.9001
 
 Renova release, based on CRAN grr 0.9 (archived on CRAN 2025-12-10).

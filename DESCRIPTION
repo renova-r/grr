@@ -1,6 +1,6 @@
 Package: grr
 Title: Alternate Implementations of Base R Functions
-Version: 0.9.9001
+Version: 0.9.9002
 Author: Craig Varrichio [aut, cre]
 Maintainer: Craig Varrichio <canthony427@gmail.com>
 Authors@R: person(given = "Craig", family = "Varrichio", role = c("aut", "cre"), email = "canthony427@gmail.com")
